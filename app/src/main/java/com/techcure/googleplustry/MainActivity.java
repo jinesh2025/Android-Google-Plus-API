@@ -1,4 +1,4 @@
-package com.amal.googleplus;
+package com.techcure.googleplustry;
 
 import android.app.Activity;
 import android.app.Dialog;
