@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="E:\Projects\Android\GooglePlusAPIAS\app\build\intermediates\pre-dexed\debug\google-play-services-0388f6ad08b05ce60256822979eee01fa791cd75.jar"
+        jar="E:\Projects\Android\GooglePlusAPIAS\app\libs\google-play-services.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0f700f6802ba1a1f1fa7ac26d5db0666a89d75a6"/>
+    <item
+        dex="E:\Projects\Android\GooglePlusAPIAS\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-c9670e825c965c0f6797b094b3d99cd764147a1f.jar"
+        jar="E:\Projects\Android\GooglePlusAPIAS\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="E:\Projects\Android\GooglePlusAPIAS\app\build\intermediates\pre-dexed\debug\classes-6eb58d684f8548dc37c527451a552075753101e1.jar"
+        jar="E:\Projects\Android\GooglePlusAPIAS\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="E:\Projects\Android\GooglePlusAPIAS\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-037ef5f7a9f42535cc3805f14d847bee58f6f887.jar"
+        jar="E:\SDK\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+
+</pre-dex-items>

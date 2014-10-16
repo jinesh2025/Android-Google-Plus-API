@@ -1,0 +1,142 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\android_support_v4.xml
+* .idea\libraries\dexedLibs.xml
+* .idea\libraries\google_play_services.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* GooglePlusAPI.iml
+* ic_launcher-web.png
+* out\
+* out\production\
+* out\production\GooglePlusAPI\
+* out\production\GooglePlusAPI\GooglePlusAPI.apk
+* out\production\GooglePlusAPI\com\
+* out\production\GooglePlusAPI\com\amal\
+* out\production\GooglePlusAPI\com\amal\googleplus\
+* out\production\GooglePlusAPI\com\amal\googleplus\BuildConfig.class
+* out\production\GooglePlusAPI\com\amal\googleplus\MainActivity$1$1.class
+* out\production\GooglePlusAPI\com\amal\googleplus\MainActivity$1.class
+* out\production\GooglePlusAPI\com\amal\googleplus\MainActivity$2.class
+* out\production\GooglePlusAPI\com\amal\googleplus\MainActivity.class
+* out\production\GooglePlusAPI\com\amal\googleplus\R$attr.class
+* out\production\GooglePlusAPI\com\amal\googleplus\R$color.class
+* out\production\GooglePlusAPI\com\amal\googleplus\R$dimen.class
+* out\production\GooglePlusAPI\com\amal\googleplus\R$drawable.class
+* out\production\GooglePlusAPI\com\amal\googleplus\R$id.class
+* out\production\GooglePlusAPI\com\amal\googleplus\R$integer.class
+* out\production\GooglePlusAPI\com\amal\googleplus\R$layout.class
+* out\production\GooglePlusAPI\com\amal\googleplus\R$menu.class
+* out\production\GooglePlusAPI\com\amal\googleplus\R$string.class
+* out\production\GooglePlusAPI\com\amal\googleplus\R$style.class
+* out\production\GooglePlusAPI\com\amal\googleplus\R$styleable.class
+* out\production\GooglePlusAPI\com\amal\googleplus\R.class
+* out\production\GooglePlusAPI\com\google\
+* out\production\GooglePlusAPI\com\google\android\
+* out\production\GooglePlusAPI\com\google\android\gms\
+* out\production\GooglePlusAPI\com\google\android\gms\BuildConfig.class
+* out\production\GooglePlusAPI\com\google\android\gms\R$attr.class
+* out\production\GooglePlusAPI\com\google\android\gms\R$color.class
+* out\production\GooglePlusAPI\com\google\android\gms\R$drawable.class
+* out\production\GooglePlusAPI\com\google\android\gms\R$id.class
+* out\production\GooglePlusAPI\com\google\android\gms\R$integer.class
+* out\production\GooglePlusAPI\com\google\android\gms\R$string.class
+* out\production\GooglePlusAPI\com\google\android\gms\R$style.class
+* out\production\GooglePlusAPI\com\google\android\gms\R$styleable.class
+* out\production\GooglePlusAPI\com\google\android\gms\R.class
+* out\production\google-play-services_lib\
+* out\production\google-play-services_lib\android\
+* out\production\google-play-services_lib\android\UnusedStub.class
+* out\production\google-play-services_lib\com\
+* out\production\google-play-services_lib\com\google\
+* out\production\google-play-services_lib\com\google\android\
+* out\production\google-play-services_lib\com\google\android\gms\
+* out\production\google-play-services_lib\com\google\android\gms\BuildConfig.class
+* out\production\google-play-services_lib\com\google\android\gms\R$attr.class
+* out\production\google-play-services_lib\com\google\android\gms\R$color.class
+* out\production\google-play-services_lib\com\google\android\gms\R$drawable.class
+* out\production\google-play-services_lib\com\google\android\gms\R$id.class
+* out\production\google-play-services_lib\com\google\android\gms\R$integer.class
+* out\production\google-play-services_lib\com\google\android\gms\R$string.class
+* out\production\google-play-services_lib\com\google\android\gms\R$style.class
+* out\production\google-play-services_lib\com\google\android\gms\R$styleable.class
+* out\production\google-play-services_lib\com\google\android\gms\R.class
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+google-play-services_lib => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\google-play-services.jar => app\libs\google-play-services.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
